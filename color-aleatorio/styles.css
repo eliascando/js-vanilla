@@ -1,0 +1,56 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+}
+
+.centrar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor */
+
+#contenedor{
+    height: 220px;
+    width: 450px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: black;
+}
+
+/* Texto */
+
+#color{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Botón */
+
+button{
+    font-size: 30px;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    background: #008CBA;
+    margin: 15px;
+    padding: 10px 30px;
+    user-select: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #05455A;
+}
